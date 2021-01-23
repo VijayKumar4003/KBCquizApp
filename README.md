@@ -50,6 +50,7 @@ Features
 If want to learn the Assets Creation then you can follow the Tutorials Series Here:
 
 Whose link is: https://youtube.com/playlist?list=PLYaEKGt6xfkvy541krrOZl8cqaLaNrsLQ
+
                https://youtube.com/playlist?list=PLYaEKGt6xfkvnKJCwxL0Vxu2WGnVoshwX
     
 
