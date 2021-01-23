@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:background="@color/transparent"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="33dp"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:background="@drawable/audience_dialog_bg"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="100dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Audience Vote"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:textSize="28sp"
+                    android:textColor="#fff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </TextView>
+            </LinearLayout>
+
+            <View
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:background="@drawable/shadow"
+                android:layout_height="3dp">
+
+            </View>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:weightSum="3"
+                android:layout_height="wrap_content">
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="3dp"
+                    android:text="Audience A"
+                    android:textColor="#FFFFFF"
+                    android:padding="10dp"
+                    android:textSize="22sp"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/txtA"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="3dp"
+                    android:text="43"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF"
+                    android:layout_width="30dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="3dp"
+                    android:text="%"
+                    android:textColor="#FFFFFF"
+                    android:padding="10dp"
+                    android:layout_weight="1"
+                    android:textSize="22sp"
+                    android:textStyle="bold">
+                </TextView>
+            </LinearLayout>
+            
+            
+            <View
+                android:layout_width="match_parent"
+                android:background="@drawable/shadow"
+                android:layout_height="3dp">
+
+            </View>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:weightSum="3"
+                android:layout_height="wrap_content">
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="3dp"
+                    android:text="Audience B"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:textColor="#FFFFFF"
+                    android:padding="10dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/txtB"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="3dp"
+                    android:text="43"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="3dp"
+                    android:text="%"
+                    android:layout_weight="1"
+                    android:textColor="#FFFFFF"
+                    android:padding="10dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold">
+                </TextView>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:background="@drawable/shadow"
+                android:layout_height="3dp">
+
+            </View>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:weightSum="3"
+                android:layout_height="wrap_content">
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="3dp"
+                    android:text="Audience C"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:textColor="#FFFFFF"
+                    android:padding="10dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/txtC"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="3dp"
+                    android:text="34"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="3dp"
+                    android:text="%"
+                    android:layout_weight="1"
+                    android:textColor="#FFFFFF"
+                    android:padding="10dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold">
+                </TextView>
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:background="@drawable/shadow"
+                android:layout_height="3dp">
+
+            </View>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:weightSum="3"
+                android:layout_height="wrap_content">
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="3dp"
+                    android:text="Audience D"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:textColor="#FFFFFF"
+                    android:padding="10dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/txtD"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="3dp"
+                    android:text="45"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="3dp"
+                    android:text="%"
+                    android:layout_weight="1"
+                    android:textColor="#FFFFFF"
+                    android:padding="10dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold">
+                </TextView>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:background="@drawable/shadow"
+                android:layout_height="3dp">
+
+            </View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/bt_audienceDialog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="#fff"
+                    android:padding="10dp"
+                    android:background="@drawable/common_button_bg_for_all_dialogs"
+                    android:text="OK" />
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>
+</LinearLayout>

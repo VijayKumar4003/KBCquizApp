@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/main_screen_bg"
+    android:layout_height="match_parent"
+    tools:context=".PlayScreen">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="232dp"
+        android:background="@drawable/the_kbc_logo"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="70sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <RelativeLayout
+        android:id="@+id/relativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="350dp"
+        app:layout_constraintBottom_toTopOf="@+id/bt_settings"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imgInnerView"
+            android:layout_width="280dp"
+            android:layout_height="280dp"
+            android:layout_centerInParent="true"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/white_play_button_bg_design"
+            tools:layout_editor_absoluteY="182dp" />
+
+        <ImageView
+            android:id="@+id/imgMiddleView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/play_button_ring"
+            tools:layout_editor_absoluteY="182dp" />
+
+        <ImageView
+            android:id="@+id/imgOuterView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/outer_spike_ring_of_play_button_bg"
+            tools:layout_editor_absoluteY="182dp" />
+
+        <Button
+            android:id="@+id/bt_playQuiz"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/play_button_bg"
+            android:padding="10dp"
+            tools:layout_editor_absoluteX="24dp"
+            tools:layout_editor_absoluteY="410dp" />
+    </RelativeLayout>
+
+
+
+
+
+
+    <Button
+        android:id="@+id/bt_settings"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/setting_icon"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bt_information" />
+
+    <Button
+        android:id="@+id/bt_information"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/info_button_bg"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/bt_settings"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

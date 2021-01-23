@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#034272</color>
+    <color name="colorPrimaryDark">#0E2F92</color>
+    <color name="colorAccent">#EC5FD9</color>
+
+    <color name="green">#4CAF50</color>
+    <color name="red">#F44336</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="color1">#1193D0</color>
+    <color name="color2">#0BA9BD</color>
+    <color name="dialog_border_color">#EC5FD9</color>
+
+    <color name="buttonBG">#FF9800</color>
+    <color name="money_screen_bg">#250567</color>
+    <color name="new_state_bg">#E96022</color>
+    <color name="original_state_bg">#250567</color>
+
+    <color name="transparent">#00030303</color>
+
+</resources>
