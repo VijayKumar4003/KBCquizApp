@@ -49,8 +49,8 @@ Features
 ## Learn UI Creation in Adobe XD of the Applications:
 If want to learn the Assets Creation then you can follow the Tutorials Series Here:
 
-Whose link is: https://youtube.com/playlist?list=PLYaEKGt6xfkvy541krrOZl8cqaLaNrsLQ
+link is: https://youtube.com/playlist?list=PLYaEKGt6xfkvy541krrOZl8cqaLaNrsLQ
 
-               https://youtube.com/playlist?list=PLYaEKGt6xfkvnKJCwxL0Vxu2WGnVoshwX
-    
+link is : https://youtube.com/playlist?list=PLYaEKGt6xfkvnKJCwxL0Vxu2WGnVoshwX
+   
 
